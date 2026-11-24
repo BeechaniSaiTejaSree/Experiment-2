@@ -1,0 +1,108 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hospital Appointment Management</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>City Care Hospital</h1>
+        <p>Hospital Patient Appointment Management</p>
+
+        <nav>
+            <a href="#services">Services</a>
+            <a href="#doctors">Doctors</a>
+            <a href="#appointment">Appointment</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <section id="services">
+            <h2>Hospital Services</h2>
+
+            <article>
+                <h3>General Medicine</h3>
+                <p>Consultation and treatment for common illnesses.</p>
+            </article>
+
+            <article>
+                <h3>Cardiology</h3>
+                <p>Healthcare services related to heart problems.</p>
+            </article>
+
+            <article>
+                <h3>Orthopedics</h3>
+                <p>Treatment for bone and joint problems.</p>
+            </article>
+        </section>
+
+        <section id="doctors">
+            <h2>Doctor Information</h2>
+
+            <article>
+                <h3>Dr. Ravi Kumar</h3>
+                <p>Department: General Medicine</p>
+            </article>
+
+            <article>
+                <h3>Dr. Priya Sharma</h3>
+                <p>Department: Cardiology</p>
+            </article>
+        </section>
+
+        <section id="appointment">
+            <h2>Patient Appointment Form</h2>
+
+            <form action="#" method="post">
+
+                <label for="name">Patient Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone"
+                       pattern="[0-9]{10}" required>
+
+                <label for="doctor">Select Doctor:</label>
+                <select id="doctor" name="doctor" required>
+                    <option value="">Select a doctor</option>
+                    <option value="ravi">Dr. Ravi Kumar</option>
+                    <option value="priya">Dr. Priya Sharma</option>
+                </select>
+
+                <label for="date">Appointment Date:</label>
+                <input type="date" id="date" name="date" required>
+
+                <label for="reason">Reason for Appointment:</label>
+                <textarea id="reason" name="reason"></textarea>
+
+                <button type="submit">Book Appointment</button>
+
+            </form>
+        </section>
+
+        <aside>
+            <h2>Patient Information</h2>
+            <p>Please arrive 15 minutes before your appointment.</p>
+        </aside>
+
+    </main>
+
+    <footer>
+        <p>City Care Hospital</p>
+        <p>Contact: 9876543210</p>
+        <p>&copy; 2026 City Care Hospital</p>
+    </footer>
+
+</body>
+
+</html>

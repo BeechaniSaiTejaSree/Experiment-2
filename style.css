@@ -1,0 +1,101 @@
+
+/* General webpage styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f2f7fa;
+    color: #333;
+}
+
+/* Header section */
+header {
+    background-color: #176b87;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Navigation bar */
+nav {
+    margin-top: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+}
+
+/* Main content */
+main {
+    padding: 20px;
+}
+
+/* Sections */
+section {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+/* Headings */
+h2 {
+    color: #176b87;
+}
+
+/* Doctor and service articles */
+article {
+    background-color: #eaf4f7;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+
+/* Appointment form */
+form {
+    max-width: 500px;
+}
+
+/* Form labels */
+label {
+    display: block;
+    margin-top: 15px;
+}
+
+/* Form input fields */
+input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    box-sizing: border-box;
+}
+
+/* Submit button */
+button {
+    background-color: #176b87;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #104d63;
+}
+
+/* Additional information */
+aside {
+    background-color: #d9edf3;
+    padding: 20px;
+    margin: 20px;
+}
+
+/* Footer section */
+footer {
+    background-color: #176b87;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
